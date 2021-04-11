@@ -1,11 +1,15 @@
-const showSection = document.querySelector('#hlink')
-const hideSection = document.querySelector('#hlink')
-const pageSection = document.querySelector('#hpage')
-
-showSection.addEventListener('click', function() {
-    pageSection.classList.add('visible')
-})
-
-hideSection.addEventListener('click', function() {
-    pageSection.classList.remove('visible')
-})
+var hlink = document.querySelector("#hlink");
+var alink = document.querySelector("#alink");
+function show(shown, hidden) {
+    document.getElementById(shown).style.display='block';
+    document.getElementById(hidden).style.display='none';
+    return false;
+}
+hlink.addEventListener("click", function onclick(event) {
+    event.preventDefault();
+    return show('hpage','apage');
+});
+alink.addEventListener("click", function onclick(event) {
+    event.preventDefault();
+    return show('apage','hpage');
+});

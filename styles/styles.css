@@ -55,3 +55,11 @@ h1, h2, h3, h4, h5, h6, p {
         transform: translateY(0px) 
     }
 }
+nav {
+    font-size: large; 
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+nav a {text-decoration: none;}
+nav a:hover {text-decoration: underline;}
