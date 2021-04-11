@@ -4,19 +4,21 @@
     <head>
         <meta charset='UTF-8' />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="DanK's personal website for showcasing projects." />
-        <title>DanK's website</title>
+        <meta name="description" content="(UNDER CONSTRUCTION)" />
+        <title>(UNDER CONSTRUCTION)</title>
         <link rel="icon" href="./avatar.webp" type="image/x-icon" />
-        <link rel="preload" href="./style.css" as="style" />
+        <link rel="preload" href="./styles/styles.css" as="style" />
+        <link rel="preload" href="./styles/nav.css" as="style" />
         <link rel="preload" href="./main.js" as="script">
-        <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="./styles/styles.css" />
+        <link rel="stylesheet" href="./styles/nav.css" />
     </head>
     <body>
         <nav>
-            <a href="#" onclick="return show('home','about');">[ Home ]</a>
-            <a href="#" onclick="return show('about','home');">[ About ]</a>
+            <a href="#" id="hlink">[ Home ]</a>
+            <a href="#" id="alink">[ About ]</a>
         </nav>
-        <div id="home">
+        <div class="section" id="hpage">
             <h1>You are now in a<span class="wave">
                 <span style="animation-delay: .0s;">c</span>
                 <span style="animation-delay: .1s;">o</span>
@@ -29,7 +31,7 @@
             </span></h1>
             <noscript>If you see this then you should enable JS</noscript>
         </div>
-        <div style="display: none;" id="about">
+        <div class="section" id="apage">
             <h1>About Me</h1>
             <p>I'm <a href="https://github.com/DanKGooGLy/DanKGooGLy">DanK</a>. I'm a Canadian developer working on many small projects, such as <a href="https://github.com/DanKGooGLy/w1spy">w1spy</a>, a rather joke-like project.<br>
                 <br>I'm also the owner of the <a href="https://github.com/Catvibers">Catvibers</a> organization, which is mainly a bunch of inexperienced devs working on random projects together.<br>

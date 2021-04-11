@@ -29,14 +29,6 @@ body {
     font-family: jb, monospace;
     font-size: medium;
 }
-nav {
-    font-size: large; 
-    text-align: center;
-    width: 100%;
-    overflow: hidden;
-}
-nav a {text-decoration: none;}
-nav a:hover {text-decoration: underline;}
 a {
     color: var(--yellow);
 }

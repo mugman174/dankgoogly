@@ -1,0 +1,11 @@
+nav {
+    font-size: large; 
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+nav a {text-decoration: none;}
+nav a:hover {text-decoration: underline;}
+.section {display: none;}
+.hidesection {display: none;}
+.show {display: flex;}
