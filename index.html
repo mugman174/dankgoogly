@@ -1,14 +1,14 @@
 <!--Test site with https://web.dev-->
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset='UTF-8' />
+        <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="DanKGooGLy's portfolio" />
         <title>DanK's website</title>
         <link rel="icon" href="./avatar.webp" type="image/x-icon" />
         <link rel="preload" href="./css/main.css" as="style" />
-        <link rel="preload" href="./js/main.js" as="script">
+        <link rel="preload" href="./js/main.js" as="script" />
         <link rel="stylesheet" href="./css/main.css" />
     </head>
     <body>
@@ -16,27 +16,48 @@
             <a href="#" id="hlink">[ Home ]</a>
             <a href="#" id="alink">[ About ]</a>
         </nav>
-        <div class="section" id="hpage">
-            <h1>You are now in a<span class="wave">
-                <span>c</span>
-                <span style="animation-delay: -0.2s;">o</span>
-                <span style="animation-delay: -0.4s;">m</span>
-                <span style="animation-delay: -0.6s;">a</span>
-                <span style="animation-delay: -0.8s;">t</span>
-                <span style="animation-delay: -1s;">o</span>
-                <span style="animation-delay: -1.2s;">s</span>
-                <span style="animation-delay: -1.4s;">e</span>
-            </span></h1>
+        <div id="hpage">
+            <h1>
+                You are now in a<span class="wave" style="color: var(--blue);">
+                    <span>c</span>
+                    <span style="animation-delay: -0.2s">o</span>
+                    <span style="animation-delay: -0.4s">m</span>
+                    <span style="animation-delay: -0.6s">a</span>
+                    <span style="animation-delay: -0.8s">t</span>
+                    <span style="animation-delay: -1s">o</span>
+                    <span style="animation-delay: -1.2s">s</span>
+                    <span style="animation-delay: -1.4s">e</span>
+                </span>
+            </h1>
             <noscript>If you see this then you should enable JS</noscript>
         </div>
-        <div class="section" id="apage" style="display: none;">
+        <div id="apage" style="display: none">
             <h1>About Me</h1>
-            <p>I'm <a href="https://github.com/DanKGooGLy/DanKGooGLy">DanK</a>. I'm a Canadian developer working on many small projects, such as <a href="https://github.com/DanKGooGLy/w1spy">w1spy</a>, a rather joke-like project.<br>
-                <br>I'm also the owner of the <a href="https://github.com/Catvibers">Catvibers</a> organization, which is mainly a bunch of inexperienced devs working on random projects together.<br>
-                <br>A couple of the projects I've worked on are: <a href="https://github.com/DanKGooGLy/aquarium">Aquarium</a>, a <a href="https://fishshell.com/">Fish Shell</a> prompt that mimics the look of the Windows CMD prompt.<br>
-                <br>I've also worked on <a href="https://github.com/DanKGooGLy/p0six">p0six</a>, a collection of shell scripts (Mostly posix), as well as <a href="https://github.com/DanKGooGLy/t3xtures">t3xtures</a>, a Minecraft 1.8 PvP-Oriented texture pack.<br>
-                <br>And the last project I'm working on is <a href="//genericlinux.org/">Generic Linux</a>, which is a distribution of Linux that's meant to comply with practically all UNIX standards whilst being ironically generic.<br>
+            <p>
+                I'm <a href="https://github.com/DanKGooGLy/DanKGooGLy">DanK</a>.
+                I'm a Canadian developer working on many small projects, such as
+                <a href="https://github.com/DanKGooGLy/w1spy">w1spy</a>, a
+                rather joke-like project.<br />
+                <br />I'm also the owner of the
+                <a href="https://github.com/Catvibers">Catvibers</a>
+                organization, which is mainly a bunch of inexperienced devs
+                working on random projects together.<br />
+                <br />A couple of the projects I've worked on are:
+                <a href="https://github.com/DanKGooGLy/aquarium">Aquarium</a>, a
+                <a href="https://fishshell.com/">Fish Shell</a> prompt that
+                mimics the look of the Windows CMD prompt.<br />
+                <br />I've also worked on
+                <a href="https://github.com/DanKGooGLy/p0six">p0six</a>, a
+                collection of shell scripts (Mostly posix), as well as
+                <a href="https://github.com/DanKGooGLy/t3xtures">t3xtures</a>, a
+                Minecraft 1.8 PvP-Oriented texture pack.<br />
+                <br />And the last project I'm working on is
+                <a href="//genericlinux.org/">Generic Linux</a>, which is a
+                distribution of Linux that's meant to comply with practically
+                all UNIX standards whilst being ironically generic.<br />
+            </p>
         </div>
+
         <script src="./js/main.js" defer></script>
     </body>
 </html>

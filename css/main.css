@@ -1,9 +1,13 @@
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     box-sizing: inherit;
     margin: 5px;
     padding: 0;
 }
-::selection {color: #474e5d;}
+::selection {
+    color: #474e5d;
+}
 :root {
     --red: #e06c75;
     --green: #98c379;
@@ -20,7 +24,7 @@ html {
     justify-content: center;
 }
 body {
-	color: var(--white);
+    color: var(--white);
     background-color: var(--black);
     font-family: jb, monospace;
     font-size: medium;
@@ -31,7 +35,13 @@ a {
 a:hover {
     color: var(--purple);
 }
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: auto;
     max-width: 1000px;
     letter-spacing: 1.5px;
@@ -42,20 +52,24 @@ h1, h2, h3, h4, h5, h6, p {
 }
 @keyframes wave {
     0% {
-        transform: translateY(0px)
+        transform: translateY(0px);
     }
     50% {
-        transform: translateY(7.5px)
+        transform: translateY(7.5px);
     }
     100% {
-        transform: translateY(0px) 
+        transform: translateY(0px);
     }
 }
 nav {
-    font-size: large; 
+    font-size: large;
     text-align: center;
     width: 100%;
     overflow: hidden;
 }
-nav a {text-decoration: none;}
-nav a:hover {text-decoration: underline;}
+nav a {
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
