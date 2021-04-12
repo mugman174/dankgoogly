@@ -44,7 +44,7 @@ h6,
 p {
     margin: auto;
     max-width: 1000px;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.05px;
 }
 .wave span {
     display: table-cell;
@@ -72,4 +72,10 @@ nav a {
 }
 nav a:hover {
     text-decoration: underline;
+}
+#links {
+    position: fixed;
+    bottom: 0px;
+    height: 25px;
+    width: 100%;
 }
