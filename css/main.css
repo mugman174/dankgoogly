@@ -73,9 +73,3 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
-#links {
-    position: fixed;
-    bottom: 0px;
-    height: 25px;
-    width: 100%;
-}
