@@ -22,8 +22,6 @@
 }
 html {
     box-sizing: border-box;
-    display: flex;
-    flex-flow: row wrap;
     justify-content: center;
 }
 body {
@@ -62,7 +60,11 @@ nav a:hover {
     text-decoration: underline;
 }
 /*IDs and Classes*/
-#apage {
+#hpage {
+    text-align: center;
+}
+#apage,
+#mpage {
     display: none;
 }
 .wave span {
@@ -101,5 +103,16 @@ nav a:hover {
     }
     100% {
         transform: translateY(0px);
+    }
+}
+/*Rules*/
+@media only screen and (max-width: 600px) {
+    nav,
+    #apage,
+    #hpage {
+        display: none;
+    }
+    #mpage {
+        display: block;
     }
 }
