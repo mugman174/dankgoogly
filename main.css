@@ -1,3 +1,10 @@
+@font-face {
+    font-family: jb;
+    font-style: normal;
+    font-weight: normal;
+    font-display: auto; /* or block, swap, fallback, optional */
+    src: local("jb"), url("./jb.woff2") format("woff2");
+}
 *,
 *:before,
 *:after {
